@@ -1,0 +1,25 @@
+# remove travis ci
+.travis.yml
+
+# remove gradle config (currently use maven, or if we switch to gradle, we can remove this)
+build.gradle
+build.sbt
+gradle.properties
+gradle/**/*
+gradlew
+gradlew.bat
+settings.gradle
+
+# remove android manifest
+src/main/AndroidManifest.xml
+
+# remove doc (unify doc)
+docs/**
+
+# remove test (use integration test)
+src/test/**
+
+.openapi-generator/**
+
+generatedAnnotation.mustache
+modelEnum.mustache
